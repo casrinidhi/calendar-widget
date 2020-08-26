@@ -1,0 +1,47 @@
+
+body {
+	color: rgba(33, 37, 41, 0.76);
+}
+
+.container {
+	background-color: rgba(172, 172, 172, 0.3);
+	border: solid 1px rgba(0, 0, 0, .2);
+	border-radius: 10px;
+	box-shadow: 0 1px 12px rgba(0, 0, 0, .5);
+	margin-top: 30px;
+	padding-top: 20px;
+}
+
+.calendar .month-label {
+	background: linear-gradient(90deg, #373B44 0%, #4286f4 100%);
+	color: #FFFFFF;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.calendar .week-label {
+	background: linear-gradient(90deg, #373B44 0%, #4286f4 100%);
+	color: #FFFFFF;
+	padding: 5px 0;
+}
+
+.calendar .seven-cols {
+	-ms-flex: 0 0 14.28%;
+	flex: 0 0 14.28%;
+	max-width: 14.28%;
+}
+
+.calendar .calendar-dates div {
+	padding: 4px;
+}
+
+.calendar .calendar-week,
+.calendar .calendar-date {
+	padding: 2px;
+}
+
+.calendar .calendar-event-icon {
+	position: absolute;
+	font-size: 0.5em;
+	top: 8px;
+}
